@@ -1,0 +1,88 @@
+@font-face{
+	font-family:cool;
+	src:url("Zoi.ttf");
+}
+@font-face{
+	font-family:hot;
+	src:url("Zikran.ttf");
+}
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:padding-box;
+    font-family: sans-serif;
+    position:fixed;
+}
+body
+{
+    display:inline-block;
+    overflow:hidden;
+    place-items: center;
+    background:#0D3120;
+    height:100vh;
+    padding: 25px;
+    border-radius: 10px;
+    position:fixed;
+    background-image:url("123.jpg"); 
+}
+#container
+{
+    height: 260px;
+    width: 300px;
+    padding: 20px;
+    background-image:url("123.jpg");
+    image-rendering:80px;
+    border-radius: 10px;
+    position:fixed;
+    max-width:300px;
+    background-size:cover;
+}
+#container h2
+{
+    font-size: 32px;
+    font-family:cool;
+    text-align:center;
+    color:#fff;
+}
+#container h3
+{
+    font-size: 17px;
+    position: absolute;
+    top: 180px;
+    right: 30px;
+    color: #fff;
+    font-family:hot;
+    font-weight:bolder;
+}
+#container button
+{
+    height: 40px;
+    width: 130px;
+    position: absolute;
+    bottom: 30px;
+    background:#ECC576;
+    border-radius:50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fffdff;
+    font-weight: 300;
+    font-size: 20px;
+}
+#credit p{
+	text-align:right;
+	font-family:cool;
+	color:#fff;
+	font-size:11px;
+	font-weight:300;
+}
+#copyright p{
+	font-size: 10px;
+	position:relative;
+	left:110px;
+	top: 340px;
+	right: 30px;
+	color: #fff;
+}
+
